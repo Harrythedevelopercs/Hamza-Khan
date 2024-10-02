@@ -1,0 +1,11 @@
+.container {
+  @apply  before:z-[0] h-full before:w-full before:h-full  before:absolute before:content-[''] before:top-0 before:left-0 before:bg-custom-gradient before:opacity-25  gap-5 px-[30px] py-[30px] overflow-hidden flex items-center justify-center rounded-3xl  relative after:content-['']   after:absolute after:inset-0 after:bg-[linear-gradient(90deg,_rgb(255_255_255/_12%),_rgb(255_255_255/_1%))] after:z-[-8] after:rounded-[30px] after:m-[-1px] after:opacity-25
+}
+
+.title {
+  @apply text-white font-medium md:text-[20px] lg:text-[30px] xl:text-[40px] leading-tight  transition-all duration-1000
+}
+
+.Arrow {
+  @apply md:w-[25px] lg:w-[35px] brightness-200 invert transition-all duration-[2s]  
+}

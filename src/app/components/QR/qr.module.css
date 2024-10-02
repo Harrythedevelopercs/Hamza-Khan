@@ -1,0 +1,15 @@
+.container {
+    @apply before:z-[0] h-full before:w-full before:h-full  before:absolute before:content-[''] before:top-0 before:left-0 before:bg-custom-gradient before:opacity-25  gap-5  md:px-[20px] md:py-[20px] lg:px-[30px] lg:py-[30px] overflow-hidden flex flex-col justify-center items-center  rounded-3xl  relative after:content-['']   after:absolute after:inset-0 after:bg-[linear-gradient(90deg,_rgb(255_255_255/_12%),_rgb(255_255_255/_1%))] after:z-[-8] after:rounded-[30px] after:m-[-1px] after:opacity-25
+}
+
+.column {
+    @apply col-span-4 flex text-center flex-col gap-2
+}
+
+.scanMe {
+    @apply text-white font-light md:text-[14px] lg:text-[18px] xl:text-[20px]
+}
+
+.QrImage{
+    @apply brightness-200 invert
+}

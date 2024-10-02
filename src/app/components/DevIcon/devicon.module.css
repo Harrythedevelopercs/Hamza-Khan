@@ -1,0 +1,3 @@
+.iconSize {
+    @apply md:text-[30px] lg:text-[40px] xl:text-[45px] text-white
+}
