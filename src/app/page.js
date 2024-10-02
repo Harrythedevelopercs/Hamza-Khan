@@ -8,7 +8,7 @@ import Laptop from 'media/laptop.png';
 import website from 'media/bits.jpeg';
 
 
-import { Container, QrContainer, Together, ProfileContainer, ServicesOffer, Resume } from "./components";
+import { Container, QrContainer, Together, ProfileContainer, ServicesOffer, Resume, ProfileInformation } from "./components";
 
 
 export default function Home() {
@@ -20,19 +20,7 @@ export default function Home() {
             {/* FIRST FOLD */}
 
             <div className="col-span-6 bg-[#0F0F0F] ">
-              <div className="before:z-[0] h-full before:w-full before:h-full  before:absolute before:content-[''] before:top-0 before:left-0 before:bg-custom-gradient before:opacity-25  gap-5 md:px-[25px] md:py-[20px] lg:px-[50px] lg:py-[40px] overflow-hidden flex  justify-center items-center rounded-3xl  relative after:content-[''] after:absolute after:inset-0 after:bg-[linear-gradient(90deg,_rgb(255_255_255/_12%),_rgb(255_255_255/_1%))] after:z-[-8] after:rounded-[30px] after:m-[-1px] after:opacity-25">
-                <Image src={BG} fill={true} className="object-cover z-[-10]" alt="Hamza Khan" />
-                <div className=" col-span-6 ">
-                  <Image alt="Hamza Khan" src={Human} className="object-contain md:max-w-[120px] lg:max-w-[150px] xl:max-w-[180px] rounded-full   transition-all duration-1000" />
-                </div>
-                <div className="col-span-6 ">
-                  <h3 className="text-[#BCBCBC] uppercase relative md:text-[10px] lg:text-[12px] xl:text-[16px]">Full Stack Web Developer</h3>
-                  <h1 className="text-white md:text-[30px] lg:text-[40px] xl:text-[50px] relative leading-[1.1] font-medium ">Hamza Khan.</h1>
-                  <p className="text-[#BCBCBC] md:text-[10px] xl:text-[12px] leading-snug mt-2">Experienced Full Stack Web Developer from Pakistan</p>
-
-                </div>
-
-              </div>
+              <ProfileInformation/>
             </div>
             <div className="col-span-6 bg-[#0F0F0F]">
               <div className="grid grid-cols-12 bg-[#0f0f0f] gap-5">
