@@ -1,0 +1,10 @@
+.container {
+    @apply before:z-[0] h-full before:w-full before:h-full  before:absolute before:content-[''] before:top-0 before:left-0 before:bg-custom-gradient before:opacity-25  gap-5 md:px-[35px] lg:px-[50px] py-[30px] overflow-hidden flex  flex-col  rounded-3xl  relative after:content-[''] after:absolute after:inset-0 after:bg-[linear-gradient(90deg,_rgb(255_255_255/_12%),_rgb(255_255_255/_1%))] after:z-[-8] after:rounded-[30px] after:m-[-1px] after:opacity-25
+}
+.title{
+   @apply text-white md:text-[20px] lg:text-[25px] xl:text-[30px] font-extralight
+}
+
+.gridCol{
+    @apply grid grid-cols-6 gap-5  
+}

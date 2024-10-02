@@ -11,7 +11,7 @@ export default function ProfileContainer() {
                     <Devicon IconName={`devicon-linkedin-plain`} />
                     <Devicon IconName={`devicon-github-original`} />
                 </div>
-                <h2 className="text-white md:text-[11px] lg:text-[13px] xl:text-[15px] uppercase">Stay with me</h2>
+                <h2 className={Style.title}>Stay with me</h2>
             </div></>
     )
 }

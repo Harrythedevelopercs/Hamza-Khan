@@ -8,7 +8,7 @@ import Laptop from 'media/laptop.png';
 import website from 'media/bits.jpeg';
 
 
-import { Container, QrContainer, Together, ProfileContainer } from "./components";
+import { Container, QrContainer, Together, ProfileContainer, ServicesOffer, Resume } from "./components";
 
 
 export default function Home() {
@@ -86,39 +86,10 @@ export default function Home() {
             {/* SECOND FOLD */}
 
             <div className="col-span-3 bg-[#0F0F0F] group">
-              <div className="before:z-[0] h-full before:w-full before:h-full  before:absolute before:content-[''] before:top-0 before:left-0 before:bg-custom-gradient before:opacity-25  gap-2 px-[50px] py-[40px] overflow-hidden flex flex-col  justify-center items-center rounded-3xl  relative after:content-[''] after:absolute after:inset-0 after:bg-[linear-gradient(90deg,_rgb(255_255_255/_12%),_rgb(255_255_255/_1%))] after:z-[-8] after:rounded-[30px] after:m-[-1px] after:opacity-25 ">
-                <h2 className="text-white md:text-[70px] lg:text-[75px] xl:text-[80px] font-medium tracking-[-0px] group-hover:text-[40px] transition-all duration-1000 group-hover:font-extralight">Resume </h2>
-                <Image src={Arrow} alt="Hamza Khan" className="md:w-[15px] lg:w-[20px] xl:w-[25px] brightness-200 invert transition-all duration-[2s] group-hover:opacity-100 opacity-0 group-hover:rotate-90 " />
-              </div>
+              <Resume />
             </div>
             <div className="col-span-6 bg-[#0F0F0F]">
-              <div className="before:z-[0] h-full before:w-full before:h-full  before:absolute before:content-[''] before:top-0 before:left-0 before:bg-custom-gradient before:opacity-25  gap-5 md:px-[35px] lg:px-[50px] py-[30px] overflow-hidden flex  flex-col  rounded-3xl  relative after:content-[''] after:absolute after:inset-0 after:bg-[linear-gradient(90deg,_rgb(255_255_255/_12%),_rgb(255_255_255/_1%))] after:z-[-8] after:rounded-[30px] after:m-[-1px] after:opacity-25">
-                <div className="text-left">
-                  <h2 className="text-white md:text-[20px] lg:text-[25px] xl:text-[30px] font-extralight">Services Offering.</h2>
-                </div>
-                <div className="grid grid-cols-6 gap-5 md:text-[30px] lg:text-[40px] xl:text-[45px] text-white ">
-                  <i className="devicon-laravel-original "></i>
-                  <i className="devicon-html5-plain "></i>
-                  <i className="devicon-css3-plain "></i>
-                  <i className="devicon-nextjs-plain "></i>
-                  <i className="devicon-python-plain "></i>
-                  <i className="devicon-javascript-plain "></i>
-                  <i className="devicon-mysql-plain-wordmark "></i>
-                  <i className="devicon-flutter-plain "></i>
-                  <i className="devicon-tailwindcss-original "></i>
-                  <i className="devicon-django-plain-wordmark "></i>
-                  <i className="devicon-wordpress-plain "></i>
-                  <i className="devicon-dart-plain-wordmark "></i>
-                  <i className="devicon-firebase-plain "></i>
-                  <i className="devicon-mongodb-plain-wordmark "></i>
-                  <i className="devicon-react-original "></i>
-                  <i className="devicon-nodejs-plain-wordmark "></i>
-                  <i className="devicon-php-plain  "></i>
-                  <i className="devicon-github-original-wordmark "></i>
-                </div>
-
-
-              </div>
+              <ServicesOffer />
             </div>
             <div className="col-span-3 bg-[#0F0F0F]">
               <ProfileContainer />
