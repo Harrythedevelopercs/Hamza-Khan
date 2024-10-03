@@ -6,7 +6,7 @@ export default function Devicon({IconName}) {
   useEffect(() => {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css';
+    link.href = 'https://cdn.jsdelivr.net/gh/devicons/devicon2@latest/devicon.min.css';
     link.type = 'text/css';
     document.head.appendChild(link);
 
