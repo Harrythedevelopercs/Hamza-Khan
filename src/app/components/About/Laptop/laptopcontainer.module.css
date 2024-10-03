@@ -1,0 +1,15 @@
+.container {
+    @apply text-center relative overflow-hidden 
+}
+
+.laptopContainer{
+    @apply md:h-[105px] lg:h-[140px] xl:h-[195px] overflow-hidden 
+}
+
+.laptopImage {
+    @apply mx-auto md:max-w-[75%] lg:max-w-[75%] xl:max-w-[80%] relative md:top-1 lg:top-3   transition-all duration-[5s] left-0
+}
+
+.laptopLayer{
+    @apply absolute brightness-105 top-0 left-0 bottom-0 right-0 mx-auto  md:max-w-[90%] lg:max-w-[90%] xl:max-w-[95%] overflow-hidden drop-shadow-md
+}
