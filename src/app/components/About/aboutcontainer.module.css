@@ -1,0 +1,13 @@
+.container {
+    @apply grid grid-cols-12 bg-[#0f0f0f] gap-5
+}
+.column {
+    @apply col-span-12 before:z-[0] before:w-full before:h-full  before:absolute before:content-[''] before:top-0 before:left-0 before:bg-custom-gradient before:opacity-25  gap-5 px-[10px] py-[15px] overflow-hidden   justify-center items-center rounded-3xl  relative after:content-[''] after:absolute after:inset-0 after:bg-[linear-gradient(90deg,_rgb(255_255_255/_12%),_rgb(255_255_255/_1%))] after:z-[-8] after:rounded-[30px] after:m-[-1px] after:opacity-25
+}
+
+.BgImage{
+    @apply object-cover z-[-10]
+}
+.headlines {
+    @apply text-white capitalize mx-2 md:text-[12px] lg:text-[14px] xl:text-[16px]
+}

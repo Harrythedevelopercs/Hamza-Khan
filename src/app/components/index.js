@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic'
 
 
+
 const Stats = dynamic(() => import('./Stats/Stats'))
 const Together = dynamic(() => import('./Together/Together'))
 const Container = dynamic(() => import('./Container/Container'))
@@ -10,8 +11,10 @@ const ProfileContainer = dynamic(() => import('./ProfileContainer/ProfileContain
 const ServicesOffer = dynamic(() => import('./ServiceOffer/ServicesOffer'))
 const Resume = dynamic(() => import('./Resume/Resume'))
 const ProfileInformation = dynamic(() => import('./ProfileInformation/ProfileInformation'))
+const AboutContainer = dynamic(() => import('./About/AboutContainer'))
 
 
 
 
-export { Stats, Container, Together, QrContainer, Devicon, ProfileContainer, ServicesOffer, Resume, ProfileInformation } 
+
+export { Stats, Container, Together, QrContainer, Devicon, ProfileContainer, ServicesOffer, Resume, ProfileInformation, AboutContainer } 
