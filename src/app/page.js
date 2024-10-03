@@ -20,13 +20,13 @@ export default function Home() {
 
             {/* SECOND FOLD */}
 
-            <div className="col-span-3 bg-[#0F0F0F] group">
+            <div className="xs:col-span-4 md:col-span-3 bg-[#0F0F0F] group">
               <Resume />
             </div>
-            <div className="col-span-6 bg-[#0F0F0F]">
+            <div className="xs:col-span-8 md:col-span-6 bg-[#0F0F0F]">
               <ServicesOffer />
             </div>
-            <div className="col-span-3 bg-[#0F0F0F]">
+            <div className="xs:col-span-12 md:col-span-3 bg-[#0F0F0F]">
               <ProfileContainer />
             </div>
             <div className="col-span-6 bg-[#0F0F0F]">

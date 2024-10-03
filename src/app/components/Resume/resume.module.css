@@ -3,9 +3,9 @@
 }
 
 .Column{
-    @apply text-white md:text-[70px] lg:text-[75px] xl:text-[80px] font-medium tracking-[-0px]  transition-all duration-1000 
+    @apply text-white xs:text-[60px] md:text-[70px] lg:text-[75px] xl:text-[80px] font-medium tracking-[-0px]  transition-all duration-1000 
 }
 
 .ReadMoreImage {
-    @apply md:w-[15px] lg:w-[20px] xl:w-[25px] brightness-200 invert transition-all duration-[2s] 
+    @apply w-[100px] md:w-[15px] lg:w-[20px] xl:w-[25px] brightness-200 invert transition-all duration-[2s] 
 }
