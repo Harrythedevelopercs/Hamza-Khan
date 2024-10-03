@@ -11,10 +11,10 @@ export default function Home() {
           <div className="grid grid-cols-12 gap-4">
             {/* FIRST FOLD */}
 
-            <div className="col-span-6 bg-[#0F0F0F] ">
+            <div className="xs:col-span-12 md:col-span-6 bg-[#0F0F0F] ">
               <ProfileInformation />
             </div>
-            <div className="col-span-6 bg-[#0F0F0F]">
+            <div className="xs:col-span-12 md:col-span-6 bg-[#0F0F0F]">
               <AboutContainer />
             </div>
 
