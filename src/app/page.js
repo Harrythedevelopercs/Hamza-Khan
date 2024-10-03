@@ -26,16 +26,16 @@ export default function Home() {
             <div className="xs:col-span-8 md:col-span-6 bg-[#0F0F0F]">
               <ServicesOffer />
             </div>
-            <div className="xs:col-span-12 md:col-span-3 bg-[#0F0F0F]">
+            <div className="xs:col-span-4 md:col-span-3 bg-[#0F0F0F]">
               <ProfileContainer />
             </div>
-            <div className="col-span-6 bg-[#0F0F0F]">
+            <div className="xs:col-span-8 md:col-span-6 bg-[#0F0F0F]">
               <Container />
             </div>
-            <div className="col-span-4 bg-[#0F0F0F] group">
+            <div className="col-span-8 md:col-span-4 bg-[#0F0F0F] group">
               <Together />
             </div>
-            <div className="col-span-2 bg-[#0F0F0F]">
+            <div className="col-span-4 md:col-span-2 bg-[#0F0F0F]">
               <QrContainer />
             </div>
           </div>

@@ -1,3 +1,3 @@
 .container{
-    @apply before:z-[0]  before:w-full before:h-full h-full  before:absolute before:content-[''] before:top-0 before:left-0 before:bg-custom-gradient before:opacity-25  md:gap-3 lg:gap-5 px-[20px] py-[20px] overflow-hidden  rounded-3xl  relative after:content-[''] flex justify-center  after:absolute after:inset-0 after:bg-[linear-gradient(90deg,_rgb(255_255_255/_12%),_rgb(255_255_255/_1%))] after:z-[-8] after:rounded-[30px] after:m-[-1px] after:opacity-25
+    @apply before:z-[0]  before:w-full before:h-full h-full  before:absolute before:content-[''] before:top-0 before:left-0 before:bg-custom-gradient before:opacity-25 gap-2 md:gap-3 lg:gap-5 py-[15px] px-[15px] md:px-[20px] md:py-[20px] overflow-hidden  rounded-3xl  relative after:content-[''] flex justify-center  after:absolute after:inset-0 after:bg-[linear-gradient(90deg,_rgb(255_255_255/_12%),_rgb(255_255_255/_1%))] after:z-[-8] after:rounded-[30px] after:m-[-1px] after:opacity-25
 }

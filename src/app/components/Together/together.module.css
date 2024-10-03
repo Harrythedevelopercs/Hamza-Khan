@@ -3,9 +3,9 @@
 }
 
 .title {
-  @apply text-white font-medium md:text-[20px] lg:text-[30px] xl:text-[40px] leading-tight  transition-all duration-1000
+  @apply text-white font-medium text-[18px] md:text-[20px] lg:text-[30px] xl:text-[40px] leading-tight  transition-all duration-1000
 }
 
 .Arrow {
-  @apply md:w-[25px] lg:w-[35px] brightness-200 invert transition-all duration-[2s]  
+  @apply w-[25px] md:w-[25px] lg:w-[35px] brightness-200 invert transition-all duration-[2s]  
 }
