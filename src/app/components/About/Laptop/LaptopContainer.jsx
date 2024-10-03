@@ -7,7 +7,7 @@ export default function LaptopContainer() {
     return (
         <div className={`group ${Style.container}`}>
             <div className={Style.laptopContainer}>
-                <Image src={website} alt="Hamza Khan" className={`group-hover:-top-[595%] ${Style.laptopImage}`} />
+                <Image src={website} alt="Hamza Khan" priority={true} className={`group-hover:-top-[595%] ${Style.laptopImage}`} />
             </div>
 
             <Image src={Laptop} alt="Hamza Khan" className={Style.laptopLayer} />
