@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body className={`bg-[#0f0f0f] ${poppins.className} transition-all duration-700 `}>
-      <link rel="stylesheet"   type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+   
         {children}
       </body>
     </html >
