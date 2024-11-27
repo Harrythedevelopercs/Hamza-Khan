@@ -6,7 +6,7 @@ export default function Container() {
     return (
         <>
             <div className={Style.container}>
-                <Stats StatsNumber={`07`} Description={`Years </br> Experience`} />
+                <Stats StatsNumber={`10`} Description={`Years </br> Experience`} />
                 <Stats StatsNumber={`+125`} Description={`CLIENTS </br>  WORLDWIDE`} />
                 <Stats StatsNumber={`+210`} Description={`TOTAL </br> PROJECTS`} />
             </div>

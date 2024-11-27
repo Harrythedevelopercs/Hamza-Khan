@@ -5,7 +5,7 @@ export default function ServicesOffer() {
     return (
         <div className={Style.container}>
             <div className="text-left">
-                <h2 className={Style.title}>Services Offering.</h2>
+                <h2 className={Style.title}>Skills.</h2>
             </div>
             <div className={Style.gridCol}>
                 <Devicon IconName="devicon-laravel-original" />

@@ -10,9 +10,9 @@ export default function ProfileInformation() {
                 <Image alt="Hamza Khan" src={Human} priority={true} className={Style.ProfileImage} />
             </div>
             <div className={Style.column}>
-                <h3 className={Style.subtitle}>Full Stack Web Developer</h3>
-                <h1 className={Style.title}>Hamza Khan.</h1>
-                <p className={Style.description}>Experienced Full Stack Web Developer from Pakistan</p>
+                <h3 className={Style.subtitle}>Full Stack Developer</h3>
+                <h1 className={Style.title}>Hamza Khan</h1>
+                <p className={Style.description}>Experienced Full Stack Developer From Pakistan</p>
 
             </div>
 

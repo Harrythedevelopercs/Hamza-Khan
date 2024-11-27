@@ -10,7 +10,7 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: "Hamza Khan | Full Stack Web Developer",
+  title: "Hamza Khan | Full Stack Developer | Laravel Developer | Wordrpess Plugin Developer",
   description: "Experienced Full Stack Web Developer from Pakistan specializing in building dynamic, high-performance websites and applications. Proficient in front-end and back-end technologies, delivering customized solutions for businesses.",
   
 };
@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body className={`bg-[#0f0f0f] ${poppins.className} transition-all duration-700 `}>
-   
         {children}
       </body>
     </html >

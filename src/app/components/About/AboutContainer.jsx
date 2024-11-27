@@ -15,7 +15,7 @@ export default function AboutContainer() {
         `Let's Meet For A <span class="font-bold text-[#4285F4]">Coffee</span>`,
         `View More Featured <span class="font-bold text-[#DB4437]">Project's</span>`,
         `Email Me At <span class="font-bold text-[#0F9D58]">harrykennedy.cs@gmail.com</span>`,
-        `Call Me <span class="font-bold text-[#F4B400]">+923162400202</span> `
+        `Call Me <span class="font-bold text-[#F4B400]">+923162400202 </span> `
     ]
 
     return (

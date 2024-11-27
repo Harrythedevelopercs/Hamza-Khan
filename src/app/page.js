@@ -1,6 +1,4 @@
-
-
-import { Container, QrContainer, Together, ProfileContainer, ServicesOffer, Resume, ProfileInformation, AboutContainer } from "./components";
+import { Container, QrContainer, Together, ProfileContainer, ServicesOffer, Resume, ProfileInformation, AboutContainer, Qualification } from "./components";
 
 
 export default function Home() {
@@ -37,6 +35,9 @@ export default function Home() {
             </div>
             <div className="col-span-4 md:col-span-2 bg-[#0F0F0F]">
               <QrContainer />
+            </div>
+            <div className="col-span-8 md:col-span-8 bg-[#0F0F0F] group">
+              <Qualification />
             </div>
           </div>
         </div>
