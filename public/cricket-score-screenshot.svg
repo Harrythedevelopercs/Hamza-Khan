@@ -1,0 +1,28 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="24" fill="#0B1220"/>
+  <rect x="40" y="40" width="1120" height="180" rx="18" fill="#141E33" stroke="#4D9CFF" stroke-width="3"/>
+  <text x="80" y="90" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="34" font-weight="700">Cricket Score Management Dashboard</text>
+  <rect x="60" y="120" width="460" height="80" rx="16" fill="#0A162B" stroke="#4D9CFF" stroke-width="2"/>
+  <text x="80" y="160" fill="#7ADFFF" font-family="Inter, sans-serif" font-size="24" font-weight="700">Match Summary</text>
+  <text x="80" y="190" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="18">Team A vs Team B • League Cup</text>
+  <rect x="580" y="120" width="520" height="80" rx="16" fill="#0A162B" stroke="#4D9CFF" stroke-width="2"/>
+  <text x="600" y="160" fill="#7ADFFF" font-family="Inter, sans-serif" font-size="24" font-weight="700">Current Score</text>
+  <text x="600" y="190" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="18">89/2 • 15.3 overs • RR 5.72</text>
+  <rect x="40" y="240" width="1120" height="420" rx="18" fill="#141E33"/>
+  <rect x="70" y="280" width="500" height="140" rx="14" fill="#0C1A2D"/>
+  <text x="100" y="320" fill="#7ADFFF" font-family="Inter, sans-serif" font-size="22" font-weight="700">Batting</text>
+  <text x="100" y="355" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="18">Player 1 - 45 (24)</text>
+  <text x="100" y="385" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="18">Player 2 - 35 (19)</text>
+  <text x="100" y="415" fill="#A7B8CC" font-family="Inter, sans-serif" font-size="16">Extras 9 • Overs 15.3</text>
+  <rect x="630" y="280" width="520" height="140" rx="14" fill="#0C1A2D"/>
+  <text x="660" y="320" fill="#7ADFFF" font-family="Inter, sans-serif" font-size="22" font-weight="700">Bowling</text>
+  <text x="660" y="355" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="18">Bowler 1 - 2/18</text>
+  <text x="660" y="385" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="18">Bowler 2 - 0/8</text>
+  <text x="660" y="415" fill="#A7B8CC" font-family="Inter, sans-serif" font-size="16">Economy 4.20 • 7.0 overs</text>
+  <rect x="70" y="450" width="1080" height="180" rx="14" fill="#0C1A2D"/>
+  <text x="100" y="490" fill="#7ADFFF" font-family="Inter, sans-serif" font-size="22" font-weight="700">Player Stats</text>
+  <text x="100" y="525" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="18">Top Scorer: Player 1</text>
+  <text x="100" y="555" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="18">Match Predictions: 70% chance of win</text>
+  <line x1="70" y1="580" x2="1150" y2="580" stroke="#2A415F" stroke-width="2"/>
+  <text x="100" y="610" fill="#A7B8CC" font-family="Inter, sans-serif" font-size="16">Live Updates • Score Entry • Match Reports • Team Lineups</text>
+</svg>
