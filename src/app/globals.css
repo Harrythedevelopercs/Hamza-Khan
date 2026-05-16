@@ -39,13 +39,14 @@ a {
 .portfolio-shell {
   position: relative;
   min-height: 100vh;
-  padding: 14px;
+  padding: 15px;
 }
 
 .site-frame {
   position: relative;
   z-index: 2;
   margin: 0 auto;
+  width: min(100%, 1320px);
   max-width: 1320px;
 }
 
@@ -1122,6 +1123,8 @@ a {
   .highlighted-projects-card {
     padding: 24px;
     min-height: auto;
+    width: 100%;
+    max-width: 100%;
   }
 
   .highlighted-card-header {
@@ -1135,6 +1138,10 @@ a {
 
   .highlighted-details {
     gap: 18px;
+  }
+
+  .highlighted-section ul {
+    padding-inline-start: 16px;
   }
 
   .marquee-card {
@@ -1192,7 +1199,12 @@ a {
 
 @media (max-width: 640px) {
   .portfolio-shell {
-    padding: 14px;
+    padding: 12px;
+  }
+
+  .site-frame {
+    width: 100%;
+    padding: 0;
   }
 
   .bento-grid,
@@ -1211,8 +1223,11 @@ a {
   .scan-card,
   .experience-card,
   .projects-card,
-  .education-card {
+  .education-card,
+  .highlighted-projects-card {
     grid-column: span 1;
+    width: 100%;
+    max-width: 100%;
   }
 
   .hero-card {
@@ -1242,6 +1257,29 @@ a {
 
   .project-live-panel {
     inset: 14px;
+  }
+
+  .highlighted-projects-card {
+    padding: 18px;
+    gap: 16px;
+  }
+
+  .highlighted-card-header {
+    gap: 6px;
+  }
+
+  .highlighted-description {
+    margin: 12px 0 16px;
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .highlighted-details {
+    gap: 16px;
+  }
+
+  .highlighted-section ul {
+    padding-inline-start: 16px;
   }
 
   .stats-band {
